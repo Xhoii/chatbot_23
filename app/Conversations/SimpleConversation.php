@@ -10,7 +10,7 @@ use BotMan\BotMan\Messages\Conversations\Conversation;
 use BotMan\BotMan\Messages\Attachments\Image;
 use BotMan\BotMan\Messages\Outgoing\OutgoingMessage;
 
-class ExampleConversation extends Conversation
+class SimpleConversation extends Conversation
 {
     protected $firstname;
 
@@ -56,6 +56,7 @@ class ExampleConversation extends Conversation
 
     public function didYouLikeTheJoke()
     {
+
         $this->ask('Do you want another one?', function(Answer $answer) {
             $userAnswer = $answer->getText();
             if ($userAnswer === 'Yes') {

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>BotMan Studio</title>
+    <title>Chatbot23</title>
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" type="text/css">
@@ -53,7 +53,11 @@
 </head>
 <body>
 <div class="container">
-    <div class="content">
+    <div class="content" style="color: white">
+        <h1>Chatbot_23</h1>
+        <p>This is a chatbot for Facebook messenger using Botman 2.0 .</p>
+        <p>Github: https://github.com/Xhoii/chatbot_23</p>
+        <p>Email: xhoikallupi@gmail.com</p>
     </div>
 </div>
 </body>
